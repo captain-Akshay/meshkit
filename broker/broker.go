@@ -24,3 +24,5 @@ type Handler interface {
 	CloseConnection()
 	ConnectedEndpoints() []string //To get the IP addresses of connected endpoints
 }
+
+//
